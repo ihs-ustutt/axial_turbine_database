@@ -65,7 +65,7 @@ It is very much possible to extend the dataset. A [docker container](https://ihs
 ---
 ### License
 
-This database is licensed under the [MIT license](/license). Feel free to use all or portions for your research or related projects so long as you provide the following citation information:
+This database is licensed under the [MIT license](/LICENSE). Feel free to use all or portions for your research or related projects so long as you provide the following citation information:
 
 ```bibtex
 

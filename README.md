@@ -19,7 +19,7 @@ The upper and lower bounds of different parameters are given in the appendix of 
 ---
 ### Dataset description
 
-This dataset originates from turbine optimization simulations and is stored in a series of text files. Each file captures specific attributes for 1,000 unique turbine blade designs, with each design evaluated at three different operational points: part load (tl, German: Teillast), nominal load (n), and full load (vl, German: Volllast). Each individual in the dataset represents a distinct turbine blade geometry, optimized across these operational conditions.
+This dataset originates from turbine optimization simulations and is stored in a series of text files. Each file captures specific attributes for 1,000 unique turbine blade designs, with each design evaluated at three different operational points: part load (tl, German: Teillast), nominal load (n), and full load (vl, German: Volllast).  In total, 21,281 individuals (turbines) were computed. Each individual in the dataset represents a distinct turbine blade geometry, optimized across these operational conditions.
 
 The dataset includes the following key parameters:
 

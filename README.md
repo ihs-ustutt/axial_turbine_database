@@ -89,6 +89,6 @@ This work was funded by the German Research Foundation (DFG) under the special p
 ---
 ### References
 
-1. Rentschler, T.; Berkemeier, M. B.; Fraas, S.; Tismer, A.; Raj, R.; Peitz, S.; Riedelbauch, S.: Multi-criteria hydraulic turbine optimization using a genetic algorithm and trust-region postprocessing. Proceedings in Applied Mathematics and Mechanics, e202400126, 2024. DOI: 10.1002/pamm.202400126 
-2. Raj, R.; Tismer, A.; Gaisser, L.; Riedelbauch, S.: A deep learning approach to calculate elementary effects of morris sensitivity analysis. Proceedings in Applied Mathematics and Mechanics, e202400104, 2024. DOI: 10.1002/pamm.202400104
-3. Jasak, H.; Jemcov, A.; Tukovic, Z.: OpenFOAM: A C++ library for complex physics simulations. In International workshop on coupled methods in numerical dynamics, 2007 Sep 19,Vol. 1000, pp. 1-20.
+1. Rentschler, T.; Berkemeier, M. B.; Fraas, S.; Tismer, A.; Raj, R.; Peitz, S.; Riedelbauch, S.: Multi-criteria hydraulic turbine optimization using a genetic algorithm and trust-region postprocessing. Proceedings in Applied Mathematics and Mechanics, e202400126, 2024. [DOI: 10.1002/pamm.202400126](https://doi.org/10.1002/pamm.202400126) 
+2. Raj, R.; Tismer, A.; Gaisser, L.; Riedelbauch, S.: A deep learning approach to calculate elementary effects of morris sensitivity analysis. Proceedings in Applied Mathematics and Mechanics, e202400104, 2024. [DOI: 10.1002/pamm.202400104](https://doi.org/10.1002/pamm.202400104)
+3. Jasak, H.; Jemcov, A.; Tukovic, Z.: [OpenFOAM: A C++ library for complex physics simulations. In International workshop on coupled methods in numerical dynamics](https://www.researchgate.net/publication/228879492_OpenFOAM_A_C_library_for_complex_physics_simulations), 2007 Sep 19,Vol. 1000, pp. 1-20.

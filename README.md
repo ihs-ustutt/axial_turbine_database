@@ -58,6 +58,7 @@ The Jupyter [data_handling.ipynb](https://github.com/ihs-ustutt/axial_turbine_da
 
 Additionally, the Pygmo library is utilized for advanced optimization tasks, specifically the [fast non-dominated sorting algorithm](https://esa.github.io/pygmo2/mo_utils.html) to generate the Pareto front. This is essential for selecting non-dominated individuals during the optimization process, specifically for recombination and mutation within the NSGA-II algorithm. The Pygmo library is only required if this advanced functionality is needed.
 
+---
 ### Visualization
 
 It is possible to visualize the axial turbines with the design tool [dtOO](https://ihs-ustutt.github.io/dtOO/quickstart.html). Standalone direct visualization is not possible. The faster way to import `dtOO` is to use the [docker container](https://ihs-ustutt.github.io/dtOO/quickstart.html).

@@ -1,6 +1,6 @@
 # Axial turbine dataset
 
-An axial turbine is a simplest hydrulic machine which is suitable for low-head conditions. It is required to simulate a machine through CFD and post-process the results to compare the performances of different machines. However, performing CFD simulations are computationally time-consuming and expensive. The goal of this repository to provide the database of axial turbines and their corresponding post-processed results.
+An axial turbine is a simplest hydrulic machine which is suitable for low-head conditions. It is required to simulate a machine through CFD and post-process the results to compare the performances of different machines. However, performing CFD simulations are computationally time-consuming and expensive. The goal of this repository is to provide the database of axial turbines and their corresponding post-processed results.
 
 This repository contains the complete dataset and the associated analysis scripts used in our research on optimizing axial turbines. The optimization was performed using a Genetic Algorithm and parallelization via the island model. For a more comprehensive explanation of the optmization process, including the parameterization of the turbine and detailed methodology, can be found in [PAMM 2024 paper](https://onlinelibrary.wiley.com/doi/10.1002/pamm.202400126) [1]. 
 
@@ -48,11 +48,16 @@ The fitness of each individual is calculated based on three key metrics:
     
 Design Parameters (Inputs):
 
-The design parameters describe the geometry of the turbine blade and were originally referred to as "objectives." However, to better align with machine learning practices, we going to rename these parameters during data loading process the to "input". These inputs, stored in `data['input']`, correspond to specific geometric features of the turbine blade. The labels of these parameters are provided in the variable parameter_labels.
+The design parameters describe the geometry of the turbine blade and were originally referred to as "objectives." However, to better align with machine learning practices, we rename these parameters during the data loading process the to "input". These inputs, stored in `data['input']`, correspond to specific geometric features of the turbine blade. The labels of these parameters are provided in the variable parameter_labels.
     - The input data contains 30 design parameters for each individual, describing the geometry of the turbine blades.
 
-
 ---
+### Tutorial Jupyter Notebook
+
+The Jupyter [data_handling.ipynb](https://github.com/ihs-ustutt/axial_turbine_database/blob/main/data_handling.ipynb) serves as a tutorial on how to read, load, and manage the dataset stored in text files within the [runData](https://github.com/ihs-ustutt/axial_turbine_database/tree/main/runData) directory. The notebook primarily relies on commonly used Python libraries. All necessary packages for the Python environment are listed in the [requirements.txt](https://github.com/ihs-ustutt/axial_turbine_database/blob/main/requirements.txt) file.
+
+Additionally, the Pygmo library is utilized for advanced optimization tasks, specifically the [fast non-dominated sorting algorithm](https://esa.github.io/pygmo2/mo_utils.html) to generate the Pareto front. This is essential for selecting non-dominated individuals during the optimization process, specifically for recombination and mutation within the NSGA-II algorithm. The Pygmo library is only required if this advanced functionality is needed.
+
 ### Visualization
 
 It is possible to visualize the axial turbines with the design tool [dtOO](https://ihs-ustutt.github.io/dtOO/quickstart.html). Standalone direct visualization is not possible. The faster way to import `dtOO` is to use the [docker container](https://ihs-ustutt.github.io/dtOO/quickstart.html).
@@ -60,7 +65,7 @@ It is possible to visualize the axial turbines with the design tool [dtOO](https
 ---
 ### Dataset extension
 
-It is very much possible to extend the dataset. A [docker container](https://ihs-ustutt.github.io/dtOO/quickstart.html) containing all pre-requisites are made available. However, extension of dataset comes at computational cost as has needed to perform CFD simulations, followed by post-processing. It will be on user to choose whether to save or ommit the flow field results based on the requirements.
+It is very much possible to extend the dataset. A [docker container](https://ihs-ustutt.github.io/dtOO/quickstart.html) containing all pre-requisites is made available. However, an extension of the dataset comes at a computational cost as CFD simulations need to be performed, followed by post-processing. It is the user's choice whether to save or omit the flow field results based on the requirements.
 
 ---
 ### License

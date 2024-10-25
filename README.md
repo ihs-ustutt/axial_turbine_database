@@ -10,8 +10,8 @@ This repository contains the complete dataset and the associated analysis script
 A section of an axial turbine and its corresponding blade parameterization in shown here.
 
 <p align="center">
-  <img src="figures/axial_turbine.png" width="35%" />
-  <img src="figures/parameterization.png" width="55%" /> 
+  <img src="figures/axial_turbine.svg" width="35%" />
+  <img src="figures/parameterization.svg" width="55%" /> 
 </p>
 
 The upper and lower bounds of different parameters are given in the appendix of [PAMM paper](https://onlinelibrary.wiley.com/doi/full/10.1002/pamm.202400104) [2]. The CFD simulation was performed using OpenFOAM (version 2023) [3]. The flow field simulation results were ommitted due to their large size.

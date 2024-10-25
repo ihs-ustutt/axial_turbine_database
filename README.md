@@ -10,7 +10,7 @@ This repository contains the complete dataset and the associated analysis script
 A section of an axial turbine and its corresponding blade parameterization in shown here.
 
 <p align="center">
-  <img src="figures/axial_turbine.svg" width="35%" />
+  <img src="figures/axial-turbine.svg" width="35%" />
   <img src="figures/parameterization.svg" width="55%" /> 
 </p>
 

@@ -95,7 +95,7 @@ This database is licensed under the [MIT license](/LICENSE). Feel free to use al
   publisher = {Wiley},
   author = {Rentschler,  Tobias and Berkemeier,  Manuel Bastian and Fraas,  Stefan and Tismer,  Alexander and Raj,  Rohit and Peitz,  Sebastian and Riedelbauch,  Stefan},
   year = {2024},
-  month = oct 
+  month = {oct} 
   }
 ```
 ---

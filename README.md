@@ -60,11 +60,17 @@ Environment Setup
 
 The environment for this project was created using Python’s venv module with the following steps:
 
-    Create the environment: python -m venv "environment_name"
+Create the environment:
+    
+    python -m venv environment_name
 
-    Activate the environment: source "environment_name"/bin/activate
+Activate the environment: 
 
-    Install required packages: pip install numpy matplotlib jupyter ipykernel
+    source environment_name/bin/activate
+
+Install required packages: 
+
+    pip install numpy matplotlib jupyter ipykernel
 
 Additionally, an installation script, [install_environment.sh](https://github.com/ihs-ustutt/axial_turbine_database/blob/main/install_python_environment.sh), is included, which automates the setup of the virtual environment, package installations, and kernel addition for Jupyter. This script was tested on openSUSE 15.6.
 

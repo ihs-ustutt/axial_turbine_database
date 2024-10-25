@@ -56,7 +56,18 @@ The design parameters describe the geometry of the turbine blade and were origin
 
 The Jupyter [data_handling.ipynb](https://github.com/ihs-ustutt/axial_turbine_database/blob/main/data_handling.ipynb) serves as a tutorial on how to read, load, and manage the dataset stored in text files within the [runData](https://github.com/ihs-ustutt/axial_turbine_database/tree/main/runData) directory. The notebook primarily relies on commonly used Python libraries. All necessary packages for the Python environment are listed in the [requirements.txt](https://github.com/ihs-ustutt/axial_turbine_database/blob/main/requirements.txt) file.
 
-Additionally, the Pygmo library is utilized for advanced optimization tasks, specifically the [fast non-dominated sorting algorithm](https://esa.github.io/pygmo2/mo_utils.html) to generate the Pareto front. This is essential for selecting non-dominated individuals during the optimization process, specifically for recombination and mutation within the NSGA-II algorithm. The Pygmo library is only required if this advanced functionality is needed.
+Environment Setup
+
+The environment for this project was created using Python’s venv module with the following steps:
+
+    Create the environment: python -m venv "environment_name"
+
+    Activate the environment: source "environment_name"/bin/activate
+
+    Install required packages: pip install numpy matplotlib jupyter ipykernel
+
+Additionally, an installation script, [install_environment.sh](https://github.com/ihs-ustutt/axial_turbine_database/blob/main/install_python_environment.sh), is included, which automates the setup of the virtual environment, package installations, and kernel addition for Jupyter. This script was tested on openSUSE 15.6.
+
 
 ---
 ### Visualization

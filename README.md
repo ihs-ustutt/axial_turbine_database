@@ -74,6 +74,7 @@ Install required packages:
 
 Additionally, an installation script, [install_environment.sh](https://github.com/ihs-ustutt/axial_turbine_database/blob/main/install_python_environment.sh), is included, which automates the setup of the virtual environment, package installations, and kernel addition for Jupyter. This script was tested on openSUSE 15.6.
 
+    sh install_environment.sh
 
 ---
 ### Visualization

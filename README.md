@@ -1,3 +1,4 @@
+[![DOI](https://zenodo.org/badge/874249655.svg)](https://doi.org/10.5281/zenodo.14014524)
 # Axial turbine dataset
 
 An axial turbine is a simplest hydrulic machine which is suitable for low-head conditions. It is required to simulate a machine through CFD and post-process the results to compare the performances of different machines. However, performing CFD simulations are computationally time-consuming and expensive. The goal of this repository is to provide the database of axial turbines and their corresponding post-processed results.

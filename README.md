@@ -3,7 +3,7 @@
 
 An axial turbine is a simplest hydrulic machine which is suitable for low-head conditions. It is required to simulate a machine through CFD and post-process the results to compare the performances of different machines. However, performing CFD simulations are computationally time-consuming and expensive. The goal of this repository is to provide the database of axial turbines and their corresponding post-processed results.
 
-This repository contains the complete dataset and the associated analysis scripts used in our research on optimizing axial turbines. The optimization was performed using a Genetic Algorithm and parallelization via the island model. For a more comprehensive explanation of the optmization process, including the parameterization of the turbine and detailed methodology, can be found in [PAMM 2024 paper](https://onlinelibrary.wiley.com/doi/10.1002/pamm.202400126) [1]. 
+This repository contains the complete dataset and the associated analysis scripts used in our research on optimizing axial turbines. The optimization was performed using a Genetic Algorithm and parallelization via the island model. For a more comprehensive explanation of the optimization process, including the parameterization of the turbine and detailed methodology, can be found in [PAMM 2024 paper](https://onlinelibrary.wiley.com/doi/10.1002/pamm.202400126) [1]. 
 
 ---
 ### Axial turbine
